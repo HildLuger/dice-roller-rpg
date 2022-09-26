@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="./src/reset.css" />
+  </head>
+  <body>
+    <div class="grid_d4">
+      <div class="d4">d4</div>
+      <div id="rollButtond4" class="canvas3dd4">
+        <canvas id="canvas3dd4"></canvas>
+      </div>
+      <div id="resultd4" class="result_d4">0</div>
+    </div>
+
+    <div class="grid_d6">
+      <div class="d6">d6</div>
+      <div id="rollButtond6" class="canvas3dd6">
+        <canvas id="canvas3dd6"></canvas>
+      </div>
+      <div id="resultd6" class="result_d6">0</div>
+    </div>
+
+    <div class="grid_d8">
+      <div class="d8">d8</div>
+      <div id="rollButtond8" class="canvas3dd8">
+        <canvas id="canvas3dd8"></canvas>
+      </div>
+      <div id="resultd8" class="result_d8">0</div>
+    </div>
+
+    <div class="grid_d10">
+      <div class="d10">d10</div>
+      <div id="rollButtond10" class="canvas3dd10">
+        <canvas id="canvas3dd10"></canvas>
+      </div>
+      <div id="resultd10" class="result_d10">0</div>
+    </div>
+
+    <div class="grid_d12">
+      <div class="d12">d12</div>
+      <div id="rollButtond12" class="canvas3dd12">
+        <canvas id="canvas3dd12"></canvas>
+      </div>
+      <div id="resultd12" class="result_d12">0</div>
+    </div>
+
+    <div class="grid_d20">
+      <div class="d20">d20</div>
+      <div id="rollButtond20" class="canvas3dd20">
+        <canvas id="canvas3dd20"></canvas>
+      </div>
+      <div id="resultd20" class="result_d20">0</div>
+    </div>
+
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"
+    ></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@splinetool/runtime": "https://unpkg.com/@splinetool/runtime@0.9.109/build/runtime.js"
+        }
+      }
+    </script>
+    <script type="module" src="./src/maind4.js"></script>
+    <script type="module" src="./src/maind6.js"></script>
+    <script type="module" src="./src/maind8.js"></script>
+    <script type="module" src="./src/maind10.js"></script>
+    <script type="module" src="./src/maind12.js"></script>
+    <script type="module" src="./src/maind20.js"></script>
+    <script type="module" src="./src/d4.js"></script>
+    <script type="module" src="./src/d6.js"></script>
+    <script type="module" src="./src/d8.js"></script>
+    <script type="module" src="./src/d10.js"></script>
+    <script type="module" src="./src/d12.js"></script>
+    <script type="module" src="./src/d20.js"></script>
+  </body>
+</html>

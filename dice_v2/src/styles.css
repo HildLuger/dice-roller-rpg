@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  background-color: rgb(18, 18, 18);
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(255, 255, 255);
+}
+html,
+body {
+  height: 100%;
+	overflow: hidden;
+}
+
+
+
+.d4{
+  grid-area: dice ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+  
+}
+
+.canvas3dd4{
+  grid-area: roll;
+ 
+
+
+
+}
+
+.result_d4{
+  grid-area: result ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+
+}
+
+.grid_d4{
+  margin: auto;
+  width: 50%;
+
+position: relative;
+top:  30vh;
+  
+  
+background: rgba(96, 96, 96, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.154);
+
+ display: grid;
+grid-template-columns: 33% 33% 33% ;
+grid-template-rows: 80px;
+ 
+ grid-template-areas:
+'dice roll result';
+
+}
+
+
+
+
+
+.d6{
+  grid-area: dice ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+  
+}
+
+.canvas3dd6{
+  grid-area: roll;
+ 
+
+
+
+}
+
+.result_d6{
+  grid-area: result ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+
+}
+
+.grid_d6{
+  margin: auto;
+  width: 50%;
+
+position: relative;
+top:  30vh;
+  
+  
+background: rgba(96, 96, 96, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.154);
+
+ display: grid;
+grid-template-columns: 33% 33% 33% ;
+grid-template-rows: 80px;
+ 
+ grid-template-areas:
+'dice roll result';
+
+}
+
+
+
+.d8{
+  grid-area: dice ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+  
+}
+
+.canvas3dd8{
+  grid-area: roll;
+ 
+
+
+
+}
+
+.result_d8{
+  grid-area: result ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+
+}
+
+.grid_d8{
+  margin: auto;
+  width: 50%;
+
+position: relative;
+top:  30vh;
+  
+  
+background: rgba(96, 96, 96, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.154);
+
+ display: grid;
+grid-template-columns: 33% 33% 33% ;
+grid-template-rows: 80px;
+ 
+ grid-template-areas:
+'dice roll result';
+
+}
+
+
+.d10{
+  grid-area: dice ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+  
+}
+
+.canvas3dd10{
+  grid-area: roll;
+ 
+
+
+
+}
+
+.result_d10{
+  grid-area: result ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+
+}
+
+.grid_d10{
+  margin: auto;
+  width: 50%;
+
+position: relative;
+top:  30vh;
+  
+  
+background: rgba(96, 96, 96, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.154);
+
+ display: grid;
+grid-template-columns: 33% 33% 33% ;
+grid-template-rows: 80px;
+ 
+ grid-template-areas:
+'dice roll result';
+
+}
+
+
+
+.d12{
+  grid-area: dice ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+  
+}
+
+.canvas3dd12{
+  grid-area: roll;
+ 
+
+
+
+}
+
+.result_d12{
+  grid-area: result ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+
+}
+
+.grid_d12{
+  margin: auto;
+  width: 50%;
+
+position: relative;
+top:  30vh;
+  
+  
+background: rgba(96, 96, 96, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.154);
+
+ display: grid;
+grid-template-columns: 33% 33% 33% ;
+grid-template-rows: 80px;
+ 
+ grid-template-areas:
+'dice roll result';
+
+}
+
+
+
+.d20{
+  grid-area: dice ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+  
+}
+
+.canvas3dd20{
+  grid-area: roll;
+ 
+
+
+
+}
+
+.result_d20{
+  grid-area: result ;
+  text-align: center;
+  margin-top: 35px;
+  font-size:30px;
+
+}
+
+.grid_d20{
+  margin: auto;
+  width: 50%;
+
+position: relative;
+top:  30vh;
+  
+  
+background: rgba(96, 96, 96, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.154);
+
+ display: grid;
+grid-template-columns: 33% 33% 33% ;
+grid-template-rows: 80px;
+ 
+ grid-template-areas:
+'dice roll result';
+
+}
